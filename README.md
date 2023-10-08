@@ -9,10 +9,10 @@ Ice-Aliceはメールが生成AIメールかを判別するThunderbird拡張機�
 # インストール方法
 本プログラムは、Thunderbird version 78.0以上での使用を想定している。
 
-## テスト環境
+### テスト環境
 ```
 git status
 git add
 git commit
 ```
-## 本番環境
+### 本番環境
