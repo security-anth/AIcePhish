@@ -14,7 +14,7 @@ git clone
 ```
 1. Thunderbirdを起動
 2. 下記のように右上の三本線をクリックし、アドオンとテーマをクリック
-[アドオンとツール](https://github.com/security-anth/Ice-Alice/blob/main/MWSCup/%E3%82%A2%E3%83%89%E3%82%AA%E3%83%B3.png "アドオンとツール")
+![アドオンとツール](https://github.com/security-anth/Ice-Alice/blob/main/MWSCup/%E3%82%A2%E3%83%89%E3%82%AA%E3%83%B3.png)
 3. アドオンマネージャーのタブの歯車をクリックし、「ファイルからアドオンをインストール」をクリック
 4. ダウンロードしたzipファイルを選択し、開くことでインストール終了　＊インストール終了後の画面を以下に示す。
 
