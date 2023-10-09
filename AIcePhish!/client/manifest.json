@@ -1,0 +1,30 @@
+{
+    "manifest_version": 2,
+    "name": "AIcePhish!",
+    "description": "Let me see the email you received was written by human or not !!!",
+    "version": "1.0",
+    "author": "sec sanka",
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "ebisu@swlab.cs.okayama-u.ac.jp",
+            "strict_min_version": "78.0"
+        }
+    },
+    "message_display_action": {
+        "default_popup": "scripts/is_human.html",
+        "default_title": "AIcePhish!",
+        "default_icon": "images/summerpenguin.jpg"
+    },
+    "icons": {
+        "48": "images/summerpenguin.jpg",
+        "96": "images/summerpenguin.jpg"
+    },
+    "permissions": [
+        "messagesRead",
+        "accountsRead",
+        "storage",
+        "menus",
+        "notifications",
+        "messagesModify"
+    ]
+}
