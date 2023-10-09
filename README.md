@@ -19,18 +19,13 @@ ZIP形式に圧縮した後、以下の1.～4.を行ってください。
 ![インストール終了](https://github.com/security-anth/Ice-Alice/blob/main/MWSCup/%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E7%B5%82%E4%BA%86.png)
 ### 利用方法
 メールのヘッダー部分に追加された「AIcePhish!」ボタンを押すと、生成AIか否かの判別結果が表示されます。
-
-### サーバを立てる際の注意
-fasttextといったモジュールは入っていない
-AIcedPhishはfasttextの日本語モデル（cc.ja.300.bin）を活用しているため、wgetでインストールする必要がある。以下にコマンドを示す。
-```
-wget https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.ja.300.bin.gz
-```
+![拡張機能導入時の見本](https://github.com/security-anth/AIcePhish/blob/main/MWSCup/result_AI.png)
 
 ### AIcePhishのディレクトリ構成
 AIcePhishのディレクトリ構成は以下のようになっています・
 
 AIcePhish/
+
 　├ AIcePhish!/
  
 　│　├ client/ - クライアント側のプログラム
