@@ -26,6 +26,7 @@ AIcePhishのディレクトリ構成は以下のようになっています・
 
 AIcePhish/
 
+
 　├ AIcePhish!/
  
 　│　├ client/ - クライアント側のプログラム
