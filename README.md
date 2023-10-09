@@ -22,9 +22,9 @@ ZIP形式に圧縮した後、以下の1.～4.を行ってください。
 
 ### サーバを立てる際の注意
 fasttextといったモジュールは入っていない
-AIcedPhishはfasttextの日本語モデル（cc.300.ja.bin）を活用しているため、wgetでインストールする必要がある。以下にコマンドを示す。
+AIcedPhishはfasttextの日本語モデル（cc.ja.300.bin）を活用しているため、wgetでインストールする必要がある。以下にコマンドを示す。
 ```
-wget
+wget https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.ja.300.bin.gz
 ```
 
 ### AIcePhishのディレクトリ構成
@@ -32,9 +32,13 @@ AIcePhishのディレクトリ構成は以下のようになっています・
 
 AIcePhish/
 　├ AIcePhish!/
+ 
 　│　├ client/ - クライアント側のプログラム
+ 
 　│　└ server/ - サーバ側のプログラム
+ 
 　├ MWSCup/
+ 
 　└ README.md/
 
 AIcePhishのアイコン画像はふにゃ猫様のイラストをお借りしました。
