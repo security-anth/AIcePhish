@@ -6,8 +6,10 @@ AIcedPhishは、選択したメールが生成AIメールか否かを判別す�
 
 ## インストール方法
 本拡張機能は、Windows10のThunderbird version 102.15.1で動作を確認しています。
-まず、本拡張機能AIcePhishをZIPダウンロード、もしくはcloneしたファイルをZIPで圧縮してください。
-その後、以下の1.～4.を行ってください。
+まず、本拡張機能AIcePhishをgit clone等でダウンロードしてください。
+その後、ダウンロードしたAIcePhishファイル内にあるclientファイル（AIcePhish/AIcePhish!/client）をZIP形式に圧縮してください。
+
+ZIP形式に圧縮した後、以下の1.～4.を行ってください。
 1. Thunderbirdを起動
 2. 下記のように右上の三本線をクリックし、アドオンとテーマをクリック
 ![アドオンとツール](https://github.com/security-anth/Ice-Alice/blob/main/MWSCup/%E3%82%A2%E3%83%89%E3%82%AA%E3%83%B3.png)
@@ -17,3 +19,22 @@ AIcedPhishは、選択したメールが生成AIメールか否かを判別す�
 ![インストール終了](https://github.com/security-anth/Ice-Alice/blob/main/MWSCup/%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E7%B5%82%E4%BA%86.png)
 ### 利用方法
 メールのヘッダー部分に追加された「AIcePhish!」ボタンを押すと、生成AIか否かの判別結果が表示されます。
+
+### サーバを立てる際の注意
+fasttextといったモジュールは入っていない
+AIcedPhishはfasttextの日本語モデル（cc.300.ja.bin）を活用しているため、wgetでインストールする必要がある。以下にコマンドを示す。
+```
+wget
+```
+
+### AIcePhishのディレクトリ構成
+AIcePhishのディレクトリ構成は以下のようになっています・
+
+AIcePhish/
+　├ AIcePhish!/
+　│　├ client/ - クライアント側のプログラム
+　│　└ server/ - サーバ側のプログラム
+　├ MWSCup/
+　└ README.md/
+
+AIcePhishのアイコン画像はふにゃ猫様のイラストをお借りしました。
