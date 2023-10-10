@@ -32,6 +32,8 @@ AIcePhish/
  
 　│　└ server/ - サーバ側のプログラム
  
+　│　└ client.zip - インストール時に使用
+ 
 　├ MWSCup/
  
 　└ README.md/
